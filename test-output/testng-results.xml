@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-20T15:30:12 IST" name="Default suite" finished-at="2024-09-20T15:30:38 IST" duration-ms="26023">
+  <suite started-at="2024-09-20T19:49:04 IST" name="Suite" finished-at="2024-09-20T19:49:49 IST" duration-ms="45426">
     <groups>
     </groups>
-    <test started-at="2024-09-20T15:30:12 IST" name="Default test" finished-at="2024-09-20T15:30:38 IST" duration-ms="26023">
+    <test started-at="2024-09-20T19:49:04 IST" name="Test" finished-at="2024-09-20T19:49:49 IST" duration-ms="45426">
+      <class name="com.package1.Trial_Project1.TestCase1">
+        <test-method is-config="true" signature="launch_browser_login()[pri:0, instance:com.package1.Trial_Project1.TestCase1@57cf54e1]" started-at="2024-09-20T19:49:20 IST" name="launch_browser_login" finished-at="2024-09-20T19:49:36 IST" duration-ms="16307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser_login -->
+        <test-method signature="login_to_amazon()[pri:0, instance:com.package1.Trial_Project1.TestCase1@57cf54e1]" started-at="2024-09-20T19:49:36 IST" name="login_to_amazon" finished-at="2024-09-20T19:49:39 IST" duration-ms="2368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_to_amazon -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.package1.Trial_Project1.TestCase1@57cf54e1]" started-at="2024-09-20T19:49:39 IST" name="logout" finished-at="2024-09-20T19:49:49 IST" duration-ms="10292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.package1.Trial_Project1.TestCase1 -->
       <class name="com.package1.Trial_Project1.FbLogin">
-        <test-method signature="login_to_facebook()[pri:0, instance:com.package1.Trial_Project1.FbLogin@20ccf40b]" started-at="2024-09-20T15:30:12 IST" name="login_to_facebook" finished-at="2024-09-20T15:30:38 IST" duration-ms="25989" status="PASS">
+        <test-method signature="login_to_facebook()[pri:0, instance:com.package1.Trial_Project1.FbLogin@1e04fa0a]" started-at="2024-09-20T19:49:04 IST" name="login_to_facebook" finished-at="2024-09-20T19:49:20 IST" duration-ms="16425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_to_facebook -->
       </class> <!-- com.package1.Trial_Project1.FbLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
