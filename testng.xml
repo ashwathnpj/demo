@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.package1.Trial_Project1.FbLogin"/>
+      <class name="com.package1.Trial_Project1.TestCase1"/>
+      <class name="com.package1.Trial_Project1.LaunchQuit"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

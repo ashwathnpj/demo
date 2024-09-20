@@ -19,6 +19,7 @@ public class FbLogin {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		FbLoginPage fb = new FbLoginPage(driver);
+		//FbLoginPage fb = new FbLoginPage();
 		fb.un();
 		fb.pw();
 		fb.login();
